@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int n,sub,sub1;
+ printf("enter n value");
+ scanf("%d",&n);
+ if(n>51)
+ {
+ sub=(n-51)*3;
+ printf("%d",sub);
+ }
+ else 
+ {
+ sub1=n-51;
+ printf("%d",sub1);
+}
+}
